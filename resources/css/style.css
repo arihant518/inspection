@@ -32,7 +32,7 @@ header{
 }
 header::before{
     content: "";
-    background: url("/resources/img/build-inspection.png") no-repeat center center/cover;
+    background: url("../img/build-inspection.png") no-repeat center center/cover;
     animation: back-img 16s infinite;
     position: absolute;
     top: 0px;
@@ -45,16 +45,16 @@ header::before{
 }
 @keyframes back-img{
     0%{
-        background: url('/resources/img/build-inspection.png') no-repeat center center/cover;
+        background: url('../img/build-inspection.png') no-repeat center center/cover;
     }
     25%{
-        background: url('/resources/img/machine-mobile-inspection.jpg') no-repeat center center/cover;
+        background: url('../img/machine-mobile-inspection.jpg') no-repeat center center/cover;
     }
     50%{
-        background: url('/resources/img/machine-tablet-inspection.jpg') no-repeat center center/cover;
+        background: url('../img/machine-tablet-inspection.jpg') no-repeat center center/cover;
     }
     75%{
-        background: url('/resources/img/machine-cpy-inspection.jpg') no-repeat center center/cover;
+        background: url('../img/machine-cpy-inspection.jpg') no-repeat center center/cover;
     }
 }
 
